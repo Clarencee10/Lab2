@@ -36,10 +36,11 @@
     </nav>
 
     <section id="home" class="home__section">
-        <div class="section__container">
+
             <div class="content">
                 <p class="subtitle">HELLO</p>
                 <h1 class="title">I'm <span>Clarence</span></h1>
+               
                 <p class="description">
                     My name is Clarence John B. Maneja, 19 years old, and I live in Puro, Legazpi City. 
                     I am a third-year student at Bicol University, pursuing a Bachelor of Science in Information Technology. 
@@ -50,7 +51,6 @@
                 <a href="{{ route('about') }}" class="action__btns">
                     <button class="hire__me">Meh!</button>
                 </a>
-            </div>
             <div class="image">
                 <img src="{{ asset('images/profile3.jpg') }}" alt="profile"> 
                 <h2>3rd Year Student of Bicol University</h2>       
